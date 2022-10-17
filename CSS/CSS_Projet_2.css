@@ -2,36 +2,262 @@
 
 body{
     font-family: "Raleway", sans-serif ;
-}
-
-header{
-    width: ;
+    margin-left: 44px;
+    font-weight: 400;
 }
 
 nav{
-    font-size: 16px;
-    width: 61.09px;
-    height: 19px;
-    padding-top: 44px;
-    justify-content: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
-ul{
+li{
     list-style-type: none;
 }
-li{
+
+header{
     display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 4px;
+    margin-top: 33px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+ul i{
+    color: #0065fc;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-right: 10px;
+}
+
+h3{
+    margin-top: 54px;
+}
+
+h3 i{
+    color: #0065fc;
+    padding: 10px;
+}
+
+h4{
+    width: 278px;
+    height: 26px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+h5{
+    width: 204px;
+    height: 15px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+    margin-left: 16px;
+}
+
+p{
+    width: 204px;
+    height: 15px;
+    margin-left: 16px;
+    margin-top: 0px;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    border: 1px white solid;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.image_article_1{
+    width: 246px;
+    height: 124px;
+    object-fit: contain;
+}
+
+aside{
+    width: 420px;
+    height: 625px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px #d9d9d9 solid;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+main article{
+    width: 1337px;
+    height: 493px;
+    top : 1112px;
+    left:50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    width: 1339px;
+    height: 225px;
+    left:48px;
+    border: 1px #F2F2F2 solid;
+
 }
 
 #logo{
     width: 61.09px;
     height: 19px;
-    margin-top: 44px;
-    margin-left: 55px;
+    margin-top: 40px;
+    float: left;
+    margin-bottom: 30px;
 }
+#navBar{
+    display: flex;
+}
+
+#barre_recherche{
+    display: flex;
+    padding : 15px;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+#localisation{
+    color: black;
+    background-color: #d9d9d9;
+    padding: 16px;
+    border-left: 2px #d9d9d9 solid ;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#site_search{
+    border: 2px #d9d9d9 solid;
+    border-radius: 15px;
+}
+
+#bouton{
+    color: white;
+    background-color: #0065fc;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#filtrage{
+    display: flex;
+    padding: 0;
+}
+
+#filtre{
+    font-weight: bold;
+    width: 54px;
+    height: 21px;
+    margin-right: 52px;
+    padding: 15px;
+    padding-left: 0;
+}
+
 #article_1{
+    background-color: #d9d9d9;
+    width: 880px;
+    height: 626px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 20px;
+}
+
+#ligne_1{
     display: flex;
 }
-#recherche{
+
+#ligne_2{
+    display:flex
+}
+
+#article_2{
     display: flex;
+}
+
+#propos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+#hebergement{
+    display: flex;
+    flex-direction: column;
+}
+
+#assistance{
+    display: flex;
+    flex-direction: column;
+}
+
+#assistance{
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar{
+    margin: 25px;
+    margin-left: 65px;
+}
+
+.filtre_liste{
+    display: flex;
+    margin-right: 80px;
+    border: 2px #d9d9d9 solid;
+    border-radius: 25px;
+    padding: 15px;
+    padding-bottom: 3px;
+}
+.étoiles{
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+.légende_image{
+    display: flex;
+    flex-direction: column;
+}
+.article_2{
+    display: flex;
+    flex-direction: column;
+}
+.image_article_2{
+    width: 302px;
+    height: 444.51px;
+    margin: 40px;
+}
+
+.footer_gras{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+.footer_liste{
+    margin: 12px;
 }
