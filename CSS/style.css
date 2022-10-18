@@ -112,13 +112,6 @@ aside{
     margin-left: 40px;
 }
 
-main article{
-    width: 1337px;
-    height: 493px;
-    top : 1112px;
-    left:50px;
-}
-
 footer{
     display: flex;
     justify-content: space-around;
@@ -183,8 +176,6 @@ footer{
 
 #article_1{
     background-color: #d9d9d9;
-    width: 880px;
-    height: 626px;
     border: 1px #d9d9d9 solid;
     border-radius: 20px;
 }
@@ -194,11 +185,26 @@ footer{
 }
 
 #ligne_2{
-    display:flex
+    display:flex;
+}
+
+#afficherplus{
+    position: relative;
+    left: 37px;
+    bottom: 12px;
 }
 
 #entete_aside{
     display: flex;
+    justify-content: space-between;
+}
+
+#image_aside_bis{
+  width: 172px;
+  height: 138px;
+  width: '172px';
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
 }
 
 #article_2{
@@ -252,6 +258,7 @@ footer{
 
 .carte_aside{
     display: flex;
+    margin-right: 40px;
 }
 
 .aside_enligne{
@@ -263,17 +270,39 @@ footer{
     margin-left: 16px;
     margin-bottom: 10px;
 }
+
+.étoilesaside{
+    display:flex;
+    margin-left:16px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 30%;
+}
+
 .légende_image{
     display: flex;
     flex-direction: column;
 }
 
 .image_article_1{
-    width: 246px;
+    width: 100%;
+    height: 139px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    position: relative;
+    left: 0px;
+    object-fit: cover;
+}
+
+.image_aside_1{
+    position: relative;
+    left: 4px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     height: 124px;
     object-fit: contain;
 }
-
 
 .article_2{
     display: flex;
@@ -296,7 +325,6 @@ footer{
 .description_aside{
     display: flex;
     flex-direction: column;
-    margin-right: 0;
 }
 
 .description_article2{
