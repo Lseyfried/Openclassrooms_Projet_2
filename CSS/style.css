@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body{
     margin:auto;
     max-width: 1440px;
     font-family: "Raleway", sans-serif ;
-    font-weight: 400;
     padding-left : 50px;
     padding-right: 50px;
 }
@@ -63,17 +62,11 @@ h3 i{
 h4{
     margin-left: 40px;
     margin-bottom: 0;
-}
-
-h4 i{
-    float: right;
-    margin-top: 46px;
-    margin-right: 42px;
+    font-weight: bold;
+    font-size: 22px
 }
 
 h5{
-    width: 204px;
-    height: 15px;
     margin-top: 4px;
     margin-bottom: 9px;
     margin-left: 16px;
@@ -86,24 +79,19 @@ p{
 
 main{
     display: flex;
-    overflow: visible;
 }
 
 section{
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-right: 40px;
     border: 1px white solid;
     border-radius: 20px;
-    margin-left: 40px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
+    width: 100%;
 }
 
+
 aside{
-    height: 625px;
     background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
@@ -117,6 +105,7 @@ footer{
     justify-content: space-around;
     background-color: #F2F2F2;
     border: 1px #F2F2F2 solid;
+    margin-top: 61px;
 
 }
 
@@ -178,37 +167,62 @@ footer{
     background-color: #d9d9d9;
     border: 1px #d9d9d9 solid;
     border-radius: 20px;
+    width: 100%;
+
+}
+
+#toute_ligne_article{
+    width: 100%;
 }
 
 #ligne_1{
     display: flex;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 23px;
 }
 
 #ligne_2{
     display:flex;
+    margin-left: 40px;
 }
 
 #afficherplus{
-    position: relative;
-    left: 37px;
-    bottom: 12px;
+    margin-left: 44px;
+    margin-bottom: 46px;
+    margin-top: 40px;
+    font-size: 18px;
 }
 
 #entete_aside{
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+
+#graphe{
+    color: #0065fc;
+    position: absolute;
+    left:93%;
+    top:58%;
 }
 
 #image_aside_bis{
-  width: 172px;
-  height: 138px;
-  width: '172px';
-border-top-left-radius: 25px;
-border-bottom-left-radius: 25px;
+  width: 214px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  object-fit: cover;
+  height: 144px;
 }
 
 #article_2{
     display: flex;
+}
+
+#activite_marseille{
+    margin-top: 60px;
+    margin-bottom: 18.47px;
 }
 
 #cartes{
@@ -256,13 +270,44 @@ border-bottom-left-radius: 25px;
     padding-bottom: 3px;
 }
 
+.carte_section{
+    margin-right: 31px;
+}
+
+.titre_article1{
+    font-weight: bold;
+    line-height: 18.78px;
+    font-size: 16px;
+    margin-right: 26px
+}
+
 .carte_aside{
+    position:relative;
     display: flex;
     margin-right: 40px;
+    width: 420px;
+    margin-left: 47px;
+    margin-top: 26px;
+    margin-bottom: 34px;
+}
+
+.titre_aside{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 7px;
+    line-height: 19px;
 }
 
 .aside_enligne{
     display: flex;
+    position:relative;
+}
+
+.p_aside{
+    font-size: 14px;
+    position: absolute;
+    top: 107%
 }
 
 .étoiles{
@@ -271,12 +316,19 @@ border-bottom-left-radius: 25px;
     margin-bottom: 10px;
 }
 
+.étoilesaside1{
+    position: absolute;
+    margin-left: 15px;
+    top: 265%;
+    margin-bottom: 44px;
+    margin-top: 12px;
+}
+
 .étoilesaside{
-    display:flex;
-    margin-left:16px;
-    margin-bottom: 10px;
-    position: relative;
-    top: 30%;
+    display: flex;
+    margin-left: 16px;
+    position: absolute;
+    top: 206%;
 }
 
 .légende_image{
@@ -286,22 +338,19 @@ border-bottom-left-radius: 25px;
 
 .image_article_1{
     width: 100%;
-    height: 139px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    position: relative;
-    left: 0px;
     object-fit: cover;
+    height: 124px;
 }
 
 .image_aside_1{
     position: relative;
-    left: 4px;
-    object-fit: cover;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 124px;
-    object-fit: contain;
+    object-fit: cover;
+    width: 50%;
+    height: 144px;
 }
 
 .article_2{
@@ -309,7 +358,7 @@ border-bottom-left-radius: 25px;
     flex-direction: column;
 }
 .image_article_2{
-    width: 302px;
+    width: 316px;
     height: 444.51px;
     border-radius: 25px;
 }
@@ -320,11 +369,16 @@ border-bottom-left-radius: 25px;
     flex-direction: column;
     border: 1px white solid;
     border-radius: 25px;
+    padding-right: 20px;
+    margin-right: 35px;
 }
 
 .description_aside{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
 }
 
 .description_article2{
