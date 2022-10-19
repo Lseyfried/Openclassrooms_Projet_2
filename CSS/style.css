@@ -18,8 +18,24 @@ nav{
     justify-content: flex-end;
 }
 
+ul{
+    margin:0;
+    padding: 0;
+}
+
+nav li{
+    padding-top: 42px;
+    padding-left: 67px;
+}
+
 li{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
 }
 
 h1{
@@ -98,10 +114,10 @@ section{
 
 
 aside{
-    background-color: #d9d9d9;
+    background-color: rgba(217, 217, 217, 0.35);
     display: flex;
     flex-direction: column;
-    border: 1px #d9d9d9 solid;
+    border: 1px rgba(217, 217, 217, 0) solid;
     border-radius: 20px;
     margin-left: 40px;
 }
@@ -109,9 +125,11 @@ aside{
 footer{
     display: flex;
     justify-content: space-around;
-    background-color: #F2F2F2;
-    border: 1px #F2F2F2 solid;
+    background-color: rgba(217, 217, 217, 0.35);
+    border: 1px rgba(217, 217, 217, 0) solid;
     margin-top: 61px;
+    height: 225px;
+    margin-bottom: 40px;
 
 }
 
@@ -127,11 +145,19 @@ footer{
     display: flex;
 }
 
+.la_Navbar:hover{
+    border-top: 1px #0065fc solid;
+    padding-top: 41px;
+}
+
+
 #barre_recherche{
     display: flex;
     padding : 15px;
     margin-top: 10px;
     padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 #localisation{
@@ -158,6 +184,7 @@ footer{
 #filtrage{
     display: flex;
     padding: 0;
+    margin-top: 46px;
 }
 
 #filtre{
@@ -186,8 +213,8 @@ footer{
 }
 
 #article_1{
-    background-color: #d9d9d9;
-    border: 1px #d9d9d9 solid;
+    background-color: rgba(217, 217, 217, 0.35);
+    border: 1px rgba(217, 217, 217, 0) solid;
     border-radius: 20px;
     width: 100%;
 
@@ -223,12 +250,11 @@ footer{
     position: relative;
 }
 
-
 #graphe{
     color: #0065fc;
     position: absolute;
     left:93%;
-    top:58%;
+    top:66%;
 }
 
 #image_aside_bis{
@@ -244,6 +270,8 @@ footer{
 }
 
 #activite_marseille{
+    font-size:22px;
+    font-weight: bold;
     margin-top: 60px;
     margin-bottom: 18.47px;
 }
@@ -279,22 +307,29 @@ footer{
     flex-direction: column;
 }
 
-.navBar{
-    margin: 25px;
-    margin-left: 65px;
-}
 
 .filtre_liste{
     display: flex;
     margin-right: 80px;
     border: 2px #d9d9d9 solid;
     border-radius: 25px;
-    padding: 15px;
-    padding-bottom: 3px;
+    margin-top: 14.58px;
+    margin-bottom: 14.58px;
+    margin-left: 14px;
+    margin-right: 21px;
+}
+
+.filtre_lien{
+    border-radius: 25px;
+}
+
+.filtre_lien:hover{
+    background-color: #DEEBFF;
 }
 
 .carte_section{
     margin-right: 31px;
+    box-shadow: 2px 9px 23px -6px rgb(50 50 50 / 75%);
 }
 
 .titre_article1{
@@ -312,6 +347,7 @@ footer{
     margin-left: 47px;
     margin-top: 26px;
     margin-bottom: 34px;
+    box-shadow: 2px 9px 23px -6px rgb(50 50 50 / 75%);
 }
 
 .titre_aside{
@@ -419,4 +455,6 @@ footer{
 
 .footer_liste{
     margin: 12px;
+    display: flex;
+    flex-direction: column;
 }
