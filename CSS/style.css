@@ -129,8 +129,6 @@ footer{
     border: 1px rgba(217, 217, 217, 0) solid;
     margin-top: 61px;
     height: 225px;
-    margin-bottom: 40px;
-
 }
 
 #logo{
@@ -154,7 +152,7 @@ footer{
 #barre_recherche{
     display: flex;
     padding : 15px;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-left: 0;
     padding-bottom: 0;
     padding-top: 0;
@@ -189,11 +187,10 @@ footer{
 
 #filtre{
     font-weight: bold;
-    width: 54px;
     height: 21px;
     margin-right: 52px;
-    padding: 15px;
     padding-left: 0;
+    margin-top: 15px;
 }
 
 #icone_info{
@@ -258,15 +255,24 @@ footer{
 }
 
 #image_aside_bis{
-  width: 214px;
+  width: 152px;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   object-fit: cover;
   height: 144px;
+  position: relative;
 }
 
 #article_2{
     display: flex;
+}
+
+#carte_encolonne1{
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+    border-radius: 25px;
+    box-shadow: 2px 9px 23px -6px rgb(50 50 50 / 75%);
 }
 
 #activite_marseille{
@@ -313,14 +319,11 @@ footer{
     margin-right: 80px;
     border: 2px #d9d9d9 solid;
     border-radius: 25px;
-    margin-top: 14.58px;
-    margin-bottom: 14.58px;
-    margin-left: 14px;
-    margin-right: 21px;
 }
 
 .filtre_lien{
     border-radius: 25px;
+    padding: 14.58px;
 }
 
 .filtre_lien:hover{
@@ -370,12 +373,14 @@ footer{
 }
 
 .étoiles{
+    color: #0065fc;
     display: flex;
     margin-left: 16px;
     margin-bottom: 10px;
 }
 
 .étoilesaside1{
+    color: #0065fc;
     position: absolute;
     margin-left: 15px;
     top: 265%;
@@ -384,6 +389,7 @@ footer{
 }
 
 .étoilesaside{
+    color: #0065fc;
     display: flex;
     margin-left: 16px;
     position: absolute;
@@ -408,7 +414,7 @@ footer{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
-    width: 50%;
+    width: 35%;
     height: 144px;
 }
 
@@ -419,7 +425,9 @@ footer{
 .image_article_2{
     width: 316px;
     height: 444.51px;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
 }
 
 
@@ -428,16 +436,18 @@ footer{
     flex-direction: column;
     border: 1px white solid;
     border-radius: 25px;
-    padding-right: 20px;
-    margin-right: 35px;
+    margin-left: 53px;
+    box-shadow: 2px 9px 23px -6px rgb(50 50 50 / 75%);
 }
+
+
 
 .description_aside{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    left: 50%;
+    left: 36%;
 }
 
 .description_article2{

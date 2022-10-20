@@ -12,12 +12,12 @@
     <img src="image_Booki/logo/Booki@3x.png" id="logo" alt="logo_Booki" />
     <nav>
         <ul id="navBar">
-            <li class="navBar"><a href="#" class="la_Navbar">Hébergements</a></li>
-            <li class="navBar"><a href="#" class="la_Navbar">Activités</a></li>
+            <li class="navBar"><a href="#hebergements" class="la_Navbar">Hébergements</a></li>
+            <li class="navBar"><a href="#activites" class="la_Navbar">Activités</a></li>
         </ul>
     </nav>
     </header>
-    <filter>
+        <filter>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre-ville ou en pleine nature</h2>
         <form id="barre_recherche">
@@ -30,10 +30,10 @@
         </form>
         <ul id="filtrage">
             <li id="filtre">Filtres</li>
-            <li class="filtre_liste"><i class="fa-solid fa-money-bill-wave"></i><a href=# class="filtre_lien">Économique</a></li>
-            <li class="filtre_liste"><i class="fa-solid fa-person"></i><a href=# class="filtre_lien">Familial</a></li>
-            <li class="filtre_liste"><i class="fa-solid fa-heart"></i><a href=# class="filtre_lien">Romantique</a></li>
-            <li class="filtre_liste"><i class="fa-solid fa-dog"></i><a href=# class="filtre_lien">Animaux autorisés</a></li>
+            <li class="filtre_liste"><a href="#" class="filtre_lien"><i class="fa-solid fa-money-bill-wave"></i>Économique</a></li>
+            <li class="filtre_liste"><a href="#" class="filtre_lien"><i class="fa-solid fa-person"></i>Familial</a></li>
+            <li class="filtre_liste"><a href="#" class="filtre_lien"><i class="fa-solid fa-heart"></i>Romantique</a></li>
+            <li class="filtre_liste"><a href="#" class="filtre_lien"><i class="fa-solid fa-dog"></i>Animaux autorisés</a></li>
         </ul>
         <div id="barre_info">
             <div id="icone_info">
@@ -41,10 +41,10 @@
         </div>
         <h3>Plus de 500 logements sont disponibles dans cette ville</h3>
         </div>
-    </filter>
+        </filter>
     <main>
         <article id="article_1">
-                <h4>Hébergements à Marseille</h4>
+                <h4 id="hebergements">Hébergements à Marseille</h4>
         <div id="toute_ligne_article">
             <div id="ligne_1">
                 <section class="carte_section">
@@ -190,23 +190,31 @@
     </main>
         <article id="article_2">
         <div id="cartes">
-                <h3 id="activite_marseille">Activités à Marseille</h3>
+                <h3 id="activite_marseille" id="activites">Activités à Marseille</h3>
                     <div id="carte_enligne">
-                        <section class="carte_encolonne">
+                        <section id="carte_encolonne1">
+                            <a href="#">
                             <img src="image_Booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port" class="image_article_2"/>
                             <p class="description_article2">Vieux-Port</p>
+                            </a>
                         </section>
                         <section class="carte_encolonne">
+                            <a href="#">
                             <img src="image_Booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort_de_Pomègues" class="image_article_2" />
                             <p class="description_article2">Fort de Pomègues</p>
+                            </a>
                         </section>
                         <section class="carte_encolonne">
+                            <a href="#">
                             <img src="image_Booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc_national_des_Calanques" class="image_article_2" />
                             <p class="description_article2">Parc national des Calanques</p>
+                            </a>
                         </section>
                         <section class="carte_encolonne">
+                            <a href="#">
                             <img src="image_Booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre_Dame_de_la_Garde" class="image_article_2" />
                             <p class="description_article2">Notre-Dame-de-la-Garde</p>
+                            </a>
                         </section>
                     </div>
             </div>
