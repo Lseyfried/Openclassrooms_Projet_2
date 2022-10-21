@@ -1,7 +1,190 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-@media {
+@media screen and (max-width : 1400px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     
+    main aside{
+        margin-left: 0em;
+        margin-top: 30px;
+        height: 278px;
+    }
+
+    main #responsive_aside{
+        display: flex;
+    }
+    
+    #article_2{
+        width: 120px;
+    }
+
+    #carte_enligne{
+        width: 263px;
+    }
+
+    article .image_article_2{
+        width: 259px;
+        height: 264px;
+    }
+    #responsive_aside{
+        display: flex;
+    }
+ 
+
+}
+
+@media screen and (max-width : 1345px){
+    main aside .étoilesaside1 {
+        top : 110px;
+    }
+    main aside .étoilesaside{
+        top:123px;
+    }
+}
+
+@media screen and (max-width : 980px){
+    body{
+        max-width: 768px;
+    }
+
+    header{
+        width: 871px;
+
+    }
+
+    main{
+        width: 880px;
+    }
+
+    #filtrage{
+        width: 155%;
+    }
+
+    .filtre_lien{
+        margin-right: -25px;
+    }
+
+    nav{
+        margin-left: 450px;
+    }
+
+    main aside .description_aside{
+        height: 64px;
+    }
+    body article .image_article_2{
+        width: 100%;
+        height: 220px;
+    }
+    footer{
+        width: 879.65px;
+    }
+    #carte_enligne{
+        width: 161%;
+    }
+}
+
+@media screen and (max-width : 425px){
+    body header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    body header #logo{
+        margin-left: 156px;
+    }
+
+    body header nav {
+      display: block;
+      margin-left: 0;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+
+    }
+    main #responsive_aside{
+        display: block;
+    }
+    main aside{
+        height: 619px;
+        width: 506px;
+    }
+
+    main #article_1{
+        background-color: white;
+    }
+
+    article #ligne_1{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    article #ligne_2{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    article .carte_section{
+        width: 57%;
+    }
+
+    article .image_article_1{
+        width: 502px;
+    }
+
+    article .bloc_section1{
+        width: 160px;
+
+    }
+
+    h1{
+        width: 332px;
+    }
+    h2{
+        width: 300px;
+    }
+    filter h3{
+
+    }
+
+    filter #filtrage{
+        flex-direction: column;
+    }
+
+    filter #filtre{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    filter .filtre_lien{
+        width: 155px;
+    }
+    filter #responsive_filtrage{
+        flex-direction: column;
+
+    }
+    filter #icone_info{
+        margin-top: 9px;
+        margin-bottom: 17px;
+    }
+
+    #responsive_filtre{
+        
+
+    }
+
+    #responsive_filtre2{
+
+    }
+
+    filter #responsive_filtre2{
+
+    }
 }
 
 body{
@@ -147,11 +330,6 @@ footer{
     display: flex;
 }
 
-.la_Navbar:hover{
-    border-top: 1px #0065fc solid;
-    padding-top: 41px;
-}
-
 
 #barre_recherche{
     display: flex;
@@ -187,6 +365,7 @@ footer{
     display: flex;
     padding: 0;
     margin-top: 46px;
+    white-space: nowrap;
 }
 
 #filtre{
@@ -195,6 +374,18 @@ footer{
     margin-right: 52px;
     padding-left: 0;
     margin-top: 15px;
+}
+
+#responsive_filtrage{
+    display: flex;
+}
+
+#responsive_filtre{
+    display: flex;
+}
+
+#responsive_filtre2{
+    display: flex;
 }
 
 #icone_info{
@@ -259,7 +450,7 @@ footer{
 }
 
 #image_aside_bis{
-  width: 152px;
+  width: 35%;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   object-fit: cover;
@@ -318,16 +509,22 @@ footer{
 }
 
 
+.la_Navbar:hover{
+    border-top: 1px #0065fc solid;
+    padding-top: 41px;
+}
+
 .filtre_liste{
     display: flex;
     margin-right: 80px;
-    border: 3px #d9d9d9 solid;
     border-radius: 29px;
 }
 
 .filtre_lien{
     border-radius: 25px;
     padding: 14.58px;
+    border: 3px #d9d9d9 solid;
+
 }
 
 .filtre_lien:hover{
@@ -436,6 +633,7 @@ footer{
 
 
 .carte_encolonne{
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: 1px white solid;
