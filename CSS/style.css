@@ -1,7 +1,278 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-@media {
+@media screen and (max-width : 1400px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     
+    main aside{
+        margin-left: 0em;
+        margin-top: 30px;
+        height: 278px;
+    }
+
+    main #responsive_aside{
+        display: flex;
+    }
+    
+    #article_2{
+        width: 120px;
+    }
+
+    #carte_enligne{
+        width: 263px;
+    }
+
+    article .image_article_2{
+        width: 259px;
+        height: 264px;
+    }
+    #responsive_aside{
+        display: flex;
+    }
+ 
+
+}
+
+@media screen and (max-width : 1345px){
+    main aside .étoilesaside1 {
+        top : 110px;
+    }
+    main aside .étoilesaside{
+        top:123px;
+    }
+}
+
+@media screen and (max-width : 980px){
+    body{
+        max-width: 768px;
+    }
+
+    header{
+        width: 871px;
+
+    }
+
+    main{
+        width: 880px;
+    }
+
+    #filtrage{
+        width: 155%;
+    }
+
+    .filtre_lien{
+        margin-right: -25px;
+    }
+
+    nav{
+        margin-left: 450px;
+    }
+
+    main aside .description_aside{
+        height: 64px;
+    }
+    body article .image_article_2{
+        width: 100%;
+        height: 220px;
+    }
+    footer{
+        width: 879.65px;
+    }
+    #carte_enligne{
+        width: 161%;
+    }
+}
+
+@media screen and (max-width : 425px){
+    html body{
+        padding-left: 20px;
+        padding-right: 0;
+        max-width: 425px;
+
+    }
+   
+    body header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    body header #logo{
+        margin-left: 156px;
+    }
+
+    body header nav {
+      display: block;
+      margin-left: 0;
+    }
+
+    body header nav li{
+        margin-top : 48px;
+        padding-top: 0;
+    }
+
+    body main{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+
+    }
+    main #responsive_aside{
+        display: block;
+        padding-left: 20px;
+    }
+    main aside{
+        height: 619px;
+        width: 506px;
+    }
+
+    main #article_1{
+        background-color: white;
+    }
+
+    article #ligne_1{
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    article #ligne_2{
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    article .carte_section{
+        width: 57%;
+        margin-bottom: 24px;
+    }
+
+    article .image_article_1{
+        width: 502px;
+    }
+
+    article .bloc_section1{
+        width: 160px;
+
+    }
+
+    filter #barre_recherche{
+        padding-left: 20px;
+    }
+
+    #barre_info{
+        height: 63px;
+        width: 270px;
+    }
+
+    #article_2 .carte_encolonne{
+        margin-left: 0;
+        margin-top: 24px;
+    }
+
+    #article_2 .image_article_2{
+        width: 100%;
+    }
+
+    .légende_image{
+        width: 500px;
+    }
+
+    h1{
+        width: 332px;
+        text-align: justify;
+    }
+    h2{
+        width: 300px;
+
+    }
+    #hebergements{
+       margin-left: 0;
+       padding-left: 20px;
+
+    }
+
+    filter #filtrage{
+        flex-direction: column;
+    }
+
+    filter #filtre{
+        margin-top: 0;
+    }
+
+    filter .filtre_liste{
+        margin-right: 44px;
+    }
+
+    filter .filtre_lien{
+        width: 155px;
+        margin-top: 14px;
+    }
+
+    main aside .carte_aside{
+        margin-left: 0;
+    }
+
+    filter #responsive_filtrage{
+        flex-direction: column;
+
+    }
+    filter #icone_info{
+        margin-top: 9px;
+        margin-bottom: 17px;
+    }
+
+    article #carte_enligne{
+        display: block;
+        width: 498px;
+    }
+
+    #afficherplus{
+        display: none;
+    }
+
+    body footer{
+        flex-direction: column;
+        height: auto;
+        width: 610px;
+    }
+
+    body footer #propos{
+        margin-left: 0;
+    }
+
+    nav .la_Navbar:hover{
+        border-bottom: 1px #0065fc solid ;
+        border-top: 0;
+        padding-bottom: 23px;
+    }
+
+   #bouton{
+        width: 49px;
+        display: none;
+    }
+    filter form #loupe{
+        display:contents;
+        background-color: #0065fc;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        cursor: pointer;
+    }
+
+    button i{
+        color: #DEEBFF;
+        background-color: #0065fc;
+        padding: 8px;
+        padding: 20px;
+        border: 1px #0065fc solid;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    
+    }
+
 }
 
 body{
@@ -147,11 +418,6 @@ footer{
     display: flex;
 }
 
-.la_Navbar:hover{
-    border-top: 1px #0065fc solid;
-    padding-top: 41px;
-}
-
 
 #barre_recherche{
     display: flex;
@@ -181,12 +447,14 @@ footer{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border: 0;
+    cursor: pointer;
 }
 
 #filtrage{
     display: flex;
     padding: 0;
     margin-top: 46px;
+    white-space: nowrap;
 }
 
 #filtre{
@@ -195,6 +463,22 @@ footer{
     margin-right: 52px;
     padding-left: 0;
     margin-top: 15px;
+}
+
+#responsive_filtrage{
+    display: flex;
+}
+
+#responsive_filtre{
+    display: flex;
+}
+
+#responsive_filtre2{
+    display: flex;
+}
+
+#responsive_recherche{
+    display: flex;
 }
 
 #icone_info{
@@ -259,7 +543,7 @@ footer{
 }
 
 #image_aside_bis{
-  width: 152px;
+  width: 35%;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   object-fit: cover;
@@ -317,17 +601,26 @@ footer{
     flex-direction: column;
 }
 
+#loupe{
+    display: none;
+}
+
+.la_Navbar:hover{
+    border-top: 1px #0065fc solid;
+    padding-top: 41px;
+}
 
 .filtre_liste{
     display: flex;
     margin-right: 80px;
-    border: 3px #d9d9d9 solid;
     border-radius: 29px;
 }
 
 .filtre_lien{
     border-radius: 25px;
     padding: 14.58px;
+    border: 3px #d9d9d9 solid;
+
 }
 
 .filtre_lien:hover{
@@ -436,6 +729,7 @@ footer{
 
 
 .carte_encolonne{
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: 1px white solid;
