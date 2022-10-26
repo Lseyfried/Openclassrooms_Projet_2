@@ -10,7 +10,7 @@
     main aside{
         margin-left: 0em;
         margin-top: 30px;
-        height: 278px;
+   
     }
 
     main #responsive_aside{
@@ -56,11 +56,11 @@
     }
 
     main{
-        width: 880px;
+        
     }
 
     #filtrage{
-        width: 155%;
+  
     }
 
     .filtre_lien{
@@ -72,7 +72,7 @@
     }
 
     main aside .description_aside{
-        height: 64px;
+       
     }
     body article .image_article_2{
         width: 100%;
@@ -88,9 +88,7 @@
 
 @media screen and (max-width : 425px){
     html body{
-        padding-left: 20px;
-        padding-right: 0;
-        max-width: 425px;
+
 
     }
    
@@ -122,11 +120,10 @@
     }
     main #responsive_aside{
         display: block;
-        padding-left: 20px;
+        
     }
     main aside{
-        height: 619px;
-        width: 506px;
+       
     }
 
     main #article_1{
@@ -148,21 +145,21 @@
     }
 
     article .carte_section{
-        width: 57%;
+        
         margin-bottom: 24px;
     }
 
     article .image_article_1{
-        width: 502px;
+       
     }
 
     article .bloc_section1{
-        width: 160px;
+        
 
     }
 
     #filtres #barre_recherche{
-        padding-left: 20px;
+        
     }
 
     #barre_info{
@@ -180,15 +177,15 @@
     }
 
     .légende_image{
-        width: 500px;
+        
     }
 
     h1{
-        width: 332px;
+       
         text-align: justify;
     }
     h2{
-        width: 300px;
+        
 
     }
     #hebergements{
@@ -202,7 +199,7 @@
     }
 
     #filtres #filtre{
-        margin-top: 0;
+        
     }
 
     #filtres .filtre_liste{
@@ -229,7 +226,7 @@
 
     article #carte_enligne{
         display: block;
-        width: 498px;
+        width: 520px;
     }
 
     #afficherplus{
@@ -296,8 +293,8 @@ nav{
 }
 
 ul{
-    margin:0;
-    padding: 0;
+
+
 }
 
 nav li{
@@ -338,11 +335,8 @@ h2{
     margin-bottom: 10px;
 }
 
-ul i{
+.filtre_lien i{
     color: #0065fc;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
     padding-right: 10px;
 }
 
@@ -361,7 +355,7 @@ h4{
     margin-left: 40px;
     margin-bottom: 0;
     font-weight: bold;
-    font-size: 22px
+    
 }
 
 h5{
@@ -454,14 +448,13 @@ footer{
 
 #filtrage{
     display: flex;
-    padding: 0;
-    margin-top: 46px;
+    margin-top: 20px;
     white-space: nowrap;
 }
 
 #filtre{
     font-weight: bold;
-    height: 21px;
+
     margin-right: 52px;
     padding-left: 0;
     margin-top: 15px;
@@ -503,12 +496,12 @@ footer{
     background-color: rgba(217, 217, 217, 0.35);
     border: 1px rgba(217, 217, 217, 0) solid;
     border-radius: 20px;
-    width: 100%;
+    
 
 }
 
 #toute_ligne_article{
-    width: 100%;
+    
 }
 
 #ligne_1{
@@ -545,7 +538,6 @@ footer{
 }
 
 #image_aside_bis{
-  width: 35%;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   object-fit: cover;
@@ -645,7 +637,7 @@ footer{
     position:relative;
     display: flex;
     margin-right: 40px;
-    width: 420px;
+  
     margin-left: 47px;
     margin-top: 26px;
     margin-bottom: 34px;
@@ -655,8 +647,7 @@ footer{
 .titre_aside{
     font-weight: bold;
     font-size: 16px;
-    margin-top: 16px;
-    margin-bottom: 7px;
+   
     line-height: 19px;
 }
 
@@ -666,7 +657,7 @@ footer{
 }
 
 .p_aside{
-    font-size: 14px;
+
     position: absolute;
     top: 107%
 }
@@ -731,12 +722,12 @@ footer{
 
 
 .carte_encolonne{
-    width: 100%;
+    
     display: flex;
-    flex-direction: column;
+
     border: 1px white solid;
     border-radius: 25px;
-    margin-left: 53px;
+
     box-shadow: 2px 9px 23px -6px rgb(50 50 50 / 75%);
 }
 
