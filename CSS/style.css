@@ -38,8 +38,9 @@
 }
 
 @media screen and (max-width:425px) {
-    header{
-        flex-direction: column
+    body header{
+        flex-direction: column;
+        height: 135px;
     }
 
     article form #bouton{
@@ -60,7 +61,9 @@
     }
 
     article #Les_filtres{
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
     }
 
     nav .navBar{
@@ -71,6 +74,44 @@
     nav .navBar:hover{
         border-top: none;
         border-bottom: 2px #0065FC solid;
+    }
+
+    header nav{
+        width: 88%;
+    }
+
+    header #logo{
+        padding-left: 35%;
+    }
+
+    main{
+        flex-direction: column-reverse;
+    }
+    main aside{
+        height: 100%;
+    }
+
+    main aside #responsive_aside{
+        flex-direction: column;
+    }
+
+    main article #hebergement_article1{
+        display: block;
+    }
+    main article .article_1_hebergement{
+        width: 100%;
+    }
+
+    body #article_2{
+        display: block;
+    }
+
+    body footer{
+        display: block;
+    }
+
+    article .activite_marseille{
+        display: block;
     }
 }
 
