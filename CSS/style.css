@@ -1,4 +1,4 @@
-@media screen and (max-width:1445px){
+@media screen and (max-width:1440px){
     main{
         flex-direction: column
     }
@@ -35,12 +35,19 @@
     header nav{
         width: 32%
     }
+    article #Les_filtres{
+        width: 100%;
+    }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:750px) {
     body header{
         flex-direction: column;
         height: 135px;
+    }
+
+    section h5{
+        margin: auto;
     }
 
     article form #bouton{
@@ -48,7 +55,7 @@
     }
 
     article form input{
-        width: 75%;
+        width: 40%;
     }
 
     article form #loupe{
@@ -58,6 +65,7 @@
         color: white;
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
+        cursor: pointer;
     }
 
     article #Les_filtres{
@@ -87,8 +95,24 @@
     main{
         flex-direction: column-reverse;
     }
+
+    main #article_1{
+        background-color: white;
+    }
+
     main aside{
         height: 100%;
+        margin-bottom: 10%;
+        border-radius: 0;
+    }
+
+    main aside .image_aside{
+        width: 40%;
+        height: 112px;
+    }
+
+    main aside .description_aside{
+        display: block;
     }
 
     main aside #responsive_aside{
@@ -112,6 +136,36 @@
 
     article .activite_marseille{
         display: block;
+        width: auto;
+        margin-bottom: 10%;
+    }
+    article .images_article2{
+        height: 129px
+    }
+
+    article ul .Filtre_liens{
+        width: 225px
+    }
+
+    article .Filtre_liens{
+        margin-right: 0;
+        margin-bottom: 15px;
+        margin-right: 10px;
+    }
+
+    article .Filtre_liste_familial{
+        padding-right: 100px
+    }
+
+    article .Filtre_liste_romantique{
+        padding-right: 20px
+    }
+
+    #Filtre{
+        margin-bottom: 11px
+    }
+    h3{
+        font-size: 0.8em
     }
 }
 
@@ -178,7 +232,7 @@ ul{
   
     display: flex;
     margin:0;
-    justify-content: space-between;
+    justify-content: space-around;
     padding:0;
 
 }
@@ -270,6 +324,7 @@ input{
 }
 
 #Les_filtres{
+    display: flex;
     margin-top: 3%;
     width: 75%;
     flex-wrap: nowrap;
@@ -279,6 +334,7 @@ input{
     display: flex;
     font-weight: bold;
     padding-top: 14px;
+    margin-right: 5%;
 }
 .Filtre_liste{
     padding: 14px;
@@ -287,13 +343,36 @@ input{
     white-space: nowrap;
 }
 
+.Filtre_liste_familial{
+    padding: 14px;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
+.Filtre_liste_romantique{
+    padding: 14px;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
 .Filtre_liens{
         border-radius: 25px;;
         border: 2px rgba(127, 127, 127, 0.2) solid;
+        margin-right: 80px;
     }
 
 .Filtre_liens:hover {
     background-color: rgba(127, 127, 127, 0.2);
+}
+
+#responsive_filtre{
+    display: flex;
+    height: 100%;
+}
+
+#responsive_filtre2{
+    display: flex;
+    height: 100%;
 }
 
 #barre_info{
@@ -318,14 +397,14 @@ input{
     justify-content: right;
     background-color: rgba(127, 127, 127, 0.2);
     border-radius: 25px;
-    width: 75%;
+    width: 100%;
 }
 
 .article_1_hebergement{
     background-color: white;
-    width: 32%;
+    width: 30%;
     border-radius: 25px;
-    margin-bottom: 15%;
+    margin-bottom: 6%;
     height: 190px;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     position: relative;
@@ -402,7 +481,7 @@ aside{
 
 .étoiles_aside{
     position: absolute;
-    left: 34%;
+    left: 41%;
     bottom: 1%;
 }
 
