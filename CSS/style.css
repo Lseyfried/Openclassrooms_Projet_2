@@ -574,7 +574,7 @@ aside {
     margin-left: 12px;
     margin-top: 7px;
     font-weight: 600;
-    font-size: 65%;
+    font-size: 76%;
 }
 
 .description_aside {
@@ -652,4 +652,8 @@ footer {
     background-color: rgba(217, 217, 217, 0.4);
     border: 1px rgba(217, 217, 217, 0) solid;
     margin-top: 61px;
+}
+
+.étoile_grise {
+    color: #d9d9d9;
 }
