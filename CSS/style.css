@@ -1,321 +1,330 @@
-@media screen and (max-width:1440px){
-    main{
-        flex-direction: column
+@media screen and (max-width: 930px) {
+    main {
+        flex-direction: column;
     }
 
-    main #article_1{
-        width: 100%
+    main #article_1 {
+        width: 100%;
     }
 
-    main aside{
+    main aside {
         width: 100%;
         margin-left: 0;
         margin-top: 5%;
         height: 300px;
     }
 
-    main aside #responsive_aside{
+    main aside #responsive_aside {
         display: flex;
-        width: 97%
+        width: 97%;
     }
-    main aside .étoiles_aside{
-        left:41%;
+    main aside .étoiles_aside {
+        left: 41%;
     }
-
 }
-@media screen and (max-width:1330px){
-    main aside .image_aside{
+@media screen and (max-width: 1330px) {
+    main aside .image_aside {
         height: 100%;
-        width: 40%
+        width: 40%;
     }
+}
 
+@media screen and (max-width: 768px) {
+    header nav {
+        width: 32%;
     }
-
-@media screen and (max-width: 768px){
-    header nav{
-        width: 32%
-    }
-    article #Les_filtres{
+    article #Les_filtres {
         width: 100%;
     }
+
+    article .Filtre_liens {
+        margin-right: 9px;
+        font-size: 15px;
+    }
 }
 
-@media screen and (max-width:750px) {
-    body header{
+@media screen and (max-width: 750px) {
+    html body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    body header {
         flex-direction: column;
         height: 135px;
     }
 
-    section h5{
+    section h5 {
         margin: auto;
     }
 
-    article form #bouton{
+    article form #bouton {
         display: none;
     }
 
-    article form input{
-        width: 40%;
+    article form input {
+        width: 100%;
+        height: 70px;
     }
 
-    article form #loupe{
+    article form #loupe {
         display: block;
         border: none;
-        background-color: #0065FC;
+        background-color: #0065fc;
         color: white;
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
         cursor: pointer;
+        padding: 6%;
     }
 
-    article #Les_filtres{
+    article #Les_filtres {
         flex-wrap: wrap;
         display: flex;
-        flex-direction: column;
+        margin-right: 1%;
+        width: auto;
+    }
+    article #Filtre {
+        display: block;
+        margin-right: 54%;
     }
 
-    nav .navBar{
+    nav .navBar {
         padding-top: 0;
         padding-bottom: 20px;
+        padding-right: 12%;
+        padding-left: 21%;
     }
 
-    nav .navBar:hover{
+    nav .navBar:hover {
         border-top: none;
-        border-bottom: 2px #0065FC solid;
+        border-bottom: 2px #0065fc solid;
     }
 
-    header nav{
+    header nav {
         width: 88%;
     }
 
-    header #logo{
+    header #logo {
         padding-left: 35%;
     }
 
-    main{
+    main {
         flex-direction: column-reverse;
     }
 
-    main #article_1{
+    main #article_1 {
         background-color: white;
     }
 
-    main aside{
+    main aside {
         height: 100%;
         margin-bottom: 10%;
         border-radius: 0;
     }
 
-    main aside .image_aside{
+    main aside .image_aside {
         width: 40%;
-        height: 112px;
+        height: 135px;
     }
 
-    main aside .description_aside{
+    main aside .description_aside {
         display: block;
     }
 
-    main aside #responsive_aside{
+    main aside #responsive_aside {
         flex-direction: column;
     }
 
-    main article #hebergement_article1{
+    main article #hebergement_article1 {
         display: block;
     }
-    main article .article_1_hebergement{
+    main article .article_1_hebergement {
         width: 100%;
     }
 
-    body #article_2{
+    body #article_2 {
         display: block;
     }
 
-    body footer{
+    body footer {
         display: block;
     }
 
-    article .activite_marseille{
+    article .activite_marseille {
         display: block;
         width: auto;
         margin-bottom: 10%;
     }
-    article .images_article2{
-        height: 129px
+    article .images_article2 {
+        height: 129px;
     }
 
-    article ul .Filtre_liens{
-        width: 225px
+    article .Filtre_liens {
+        font-size: 70%;
+        width: 45%;
+        margin-bottom: 4%;
     }
 
-    article .Filtre_liens{
+    article a .Filtre_liens {
         margin-right: 0;
         margin-bottom: 15px;
         margin-right: 10px;
     }
 
-    article .Filtre_liste_familial{
-        padding-right: 100px
+    article .Filtre_liste_familial {
+        padding-right: 100px;
     }
 
-    article .Filtre_liste_romantique{
-        padding-right: 20px
+    article .Filtre_liste_romantique {
+        padding-right: 20px;
     }
 
-    #Filtre{
-        margin-bottom: 11px
+    #Filtre {
+        margin-bottom: 11px;
     }
-    h3{
-        font-size: 0.8em
+    h3 {
+        font-size: 0.8em;
+    }
+
+    article #localisation {
+        padding: 7%;
     }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
-body{
-    margin:auto;
+body {
+    margin: auto;
     max-width: 1440px;
-    font-family: "Raleway", sans-serif ;
-    padding-left : 50px;
+    font-family: "Raleway", sans-serif;
+    padding-left: 50px;
     padding-right: 50px;
 }
 
-h1{
+h1 {
     font-weight: bold;
     font-size: 1.5em;
     margin-bottom: 4px;
     margin-top: 33px;
 }
 
-
-h2{
+h2 {
     font-weight: 400;
     font-size: 1em;
     margin-top: 4px;
     margin-bottom: 10px;
 }
 
-h3{
+h3 {
     padding-left: 2%;
 }
 
-h4{
+h4 {
     padding-left: 6%;
     padding-top: 2%;
     white-space: nowrap;
 }
 
-h5{
-    margin:0;
-    padding-left: 5%;
-    padding-bottom: 2%;
-}
-
-h6{
+h5 {
     margin: 0;
     padding-left: 5%;
     padding-bottom: 2%;
 }
 
-header{
+h6 {
+    margin: 0;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+header {
     display: flex;
     justify-content: space-between;
 }
 
-nav{
-
+nav {
     width: 25%;
-    
 }
 
-ul{
-  
+ul {
     display: flex;
-    margin:0;
+    margin: 0;
     justify-content: space-around;
-    padding:0;
-
+    padding: 0;
 }
 
-
-
-li{
+li {
     list-style-type: none;
-
-
-    
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
 
-a i{
-    color: #0065FC;
+a i {
+    color: #0065fc;
     padding-right: 10px;
-
 }
 
-main{
+main {
     display: flex;
     justify-content: space-between;
 }
 
-form{
+form {
     display: flex;
     flex-direction: row;
 }
 
-input{
+input {
     width: 20%;
     border: 0;
+    font-weight: bold;
 }
 
-#logo{
-  width: 61.09px;
-  height: 19px;
-  padding-top: 20px;
-  
-}
-
-#logo_image{
-  width: 100%;
-
-}
-
-.navLien{
-    
-}
-
-.navBar{
+#logo {
+    width: 61.09px;
+    height: 19px;
     padding-top: 20px;
 }
 
-.navBar:hover{
-    border-top: 2px #0065FC solid;
+#logo_image {
+    width: 100%;
 }
 
-#loupe{
+.navLien {
+}
+
+.navBar {
+    padding-top: 20px;
+}
+
+.navBar:hover {
+    border-top: 2px #0065fc solid;
+}
+
+#loupe {
     display: none;
 }
 
-#localisation{
+#localisation {
     background-color: rgba(127, 127, 127, 0.2);
-    border:1px rgba(127, 127, 127, 0.2) solid;
+    border: 1px rgba(127, 127, 127, 0.2) solid;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 1%;
 }
 
-#site_search{
+#site_search {
     border: 2px #d9d9d9 solid;
     border-radius: 15px;
 }
 
-#bouton{
-    background-color: #0065FC;
+#bouton {
+    background-color: #0065fc;
     color: white;
     border: 0;
     border-top-right-radius: 25px;
@@ -323,65 +332,65 @@ input{
     cursor: pointer;
 }
 
-#Les_filtres{
+#Les_filtres {
     display: flex;
     margin-top: 3%;
     width: 75%;
     flex-wrap: nowrap;
 }
 
-#Filtre{
+#Filtre {
     display: flex;
     font-weight: bold;
     padding-top: 14px;
     margin-right: 5%;
 }
-.Filtre_liste{
+.Filtre_liste {
     padding: 14px;
-    
+
     border-radius: 25px;
     white-space: nowrap;
 }
 
-.Filtre_liste_familial{
-    padding: 14px;
-    border-radius: 25px;
-    white-space: nowrap;
-}
-
-.Filtre_liste_romantique{
+.Filtre_liste_familial {
     padding: 14px;
     border-radius: 25px;
     white-space: nowrap;
 }
 
-.Filtre_liens{
-        border-radius: 25px;;
-        border: 2px rgba(127, 127, 127, 0.2) solid;
-        margin-right: 80px;
-    }
+.Filtre_liste_romantique {
+    padding: 14px;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
+.Filtre_liens {
+    border-radius: 25px;
+    border: 2px rgba(127, 127, 127, 0.2) solid;
+    margin-right: 23px;
+}
 
 .Filtre_liens:hover {
     background-color: rgba(127, 127, 127, 0.2);
 }
 
-#responsive_filtre{
+#responsive_filtre {
     display: flex;
     height: 100%;
 }
 
-#responsive_filtre2{
+#responsive_filtre2 {
     display: flex;
     height: 100%;
 }
 
-#barre_info{
+#barre_info {
     display: flex;
     margin-top: 2%;
 }
 
-#info_cercle{
-    color: #0065FC;
+#info_cercle {
+    color: #0065fc;
     border: 2px rgba(127, 127, 127, 0.2) solid;
     padding: 20px;
     border-top-right-radius: 100%;
@@ -391,7 +400,7 @@ input{
     margin-bottom: 23px;
 }
 
-#article_1{
+#article_1 {
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -400,7 +409,7 @@ input{
     width: 100%;
 }
 
-.article_1_hebergement{
+.article_1_hebergement {
     background-color: white;
     width: 30%;
     border-radius: 25px;
@@ -410,7 +419,7 @@ input{
     position: relative;
 }
 
-.image_hebergement{
+.image_hebergement {
     display: flex;
     flex-direction: column;
     width: 246px;
@@ -421,7 +430,7 @@ input{
     width: 100%;
 }
 
-#hebergement_article1{
+#hebergement_article1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -429,32 +438,33 @@ input{
     padding-right: 3%;
 }
 
-.étoiles{
+.étoiles {
     position: absolute;
     left: 10px;
     white-space: nowrap;
 }
 
-aside{
+aside {
     background-color: rgba(127, 127, 127, 0.2);
     border-radius: 25px;
     width: 40%;
     margin-left: 4%;
 }
-#populaires{
+#populaires {
     display: flex;
     justify-content: space-between;
 }
 
-#graphe{
-    color: #0065FC;
+#graphe {
+    color: #0065fc;
     padding: 30px;
 }
 
-.hebergement_aside{
+.hebergement_aside {
     display: flex;
     background-color: white;
     width: 90%;
+    height: 135px;
     margin-left: 5%;
     margin-bottom: 15%;
     border-radius: 25px;
@@ -462,37 +472,37 @@ aside{
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
 }
 
-.image_aside{
+.image_aside {
     width: 137px;
-    height: 144px;
+    height: 135px;
     object-fit: cover;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-.prix_aside{
+.prix_aside {
     margin-top: 13%;
 }
 
-.description_aside{
+.description_aside {
     display: flex;
     flex-direction: column;
 }
 
-.étoiles_aside{
+.étoiles_aside {
     position: absolute;
     left: 41%;
     bottom: 1%;
 }
 
-#article_2{
+#article_2 {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 10%;
 }
 
-.images_article2{
+.images_article2 {
     width: 100%;
     height: 92%;
     object-fit: cover;
@@ -500,8 +510,8 @@ aside{
     border-top-right-radius: 15px;
 }
 
-.activite_marseille{
-    width: 20%;
+.activite_marseille {
+    width: 21%;
     background-color: white;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     border-radius: 15px;
@@ -510,35 +520,35 @@ aside{
     justify-content: space-between;
 }
 
-#propos{
+#propos {
     display: flex;
     flex-direction: column;
 }
 
-#hebergement{
+#hebergement {
     display: flex;
     flex-direction: column;
 }
 
-#assistance{
+#assistance {
     display: flex;
     flex-direction: column;
 }
 
-.footer_gras{
+.footer_gras {
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 45px;
     margin-left: 12px;
 }
 
-.footer_liste{
+.footer_liste {
     margin: 12px;
     display: flex;
     flex-direction: column;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     background-color: rgba(217, 217, 217, 0.35);
