@@ -1,3 +1,9 @@
+@media screen and (max-width: 1394px) {
+    main aside .étoiles_aside {
+        left: 50%;
+    }
+}
+
 @media screen and (max-width: 1145px) {
     main {
         flex-direction: column;
@@ -39,6 +45,7 @@
     }
     main aside .image_aside {
         width: 103px;
+        height: auto;
     }
     article .tarif_vignette {
         font-size: 13px;
@@ -57,11 +64,24 @@
 @media screen and (max-width: 996px) {
     main aside .image_aside {
         height: 100%;
-        width: 40%;
+        width: 36%;
     }
 
     main aside .étoiles_aside {
         left: 40%;
+    }
+
+    aside .hebergement_aside {
+        height: auto;
+    }
+    main aside .titre_vignette {
+        font-size: 69%;
+        margin-left: 5%;
+    }
+
+    main aside .prix_aside {
+        font-size: 55%;
+        margin-left: 3%;
     }
 }
 
@@ -85,7 +105,7 @@
         padding: 3%;
     }
     main aside .étoiles_aside {
-        left: 41%;
+        left: 37%;
     }
     article .titre_vignette2 {
         font-size: 70%;
@@ -284,7 +304,7 @@
 
 @media screen and (max-width: 375px) {
     main aside .étoiles_aside {
-        left: 45%;
+        left: 47%;
     }
 }
 
@@ -292,6 +312,12 @@
     .titre_vignette2 {
         margin-left: 3%;
         margin-top: 1%;
+    }
+    main aside .étoiles_aside {
+        left: 55%;
+    }
+    main aside .titre_vignette {
+        font-size: 87%;
     }
 }
 
@@ -354,6 +380,7 @@ h2 {
 h3 {
     font-size: 0.8em;
     padding-left: 2%;
+    font-weight: 400;
 }
 
 .tarif_vignette {
