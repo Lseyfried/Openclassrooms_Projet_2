@@ -366,7 +366,7 @@ h2 {
     font-weight: 700;
     line-height: 18.78px;
     margin-top: 4px;
-    margin-left: 16px;
+    margin-left: 15px;
     margin-bottom: 9px;
 }
 
@@ -647,15 +647,16 @@ aside {
 
 .prix_aside {
     margin: 0;
-    margin-left: 12px;
     margin-top: 7px;
     font-weight: 600;
     font-size: 76%;
+    margin-left: 7%;
 }
 
 .description_aside {
     display: flex;
     flex-direction: column;
+    margin-right: 1%;
 }
 
 .étoiles_aside {
