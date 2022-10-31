@@ -585,7 +585,7 @@ aside {
 .étoiles_aside {
     color: #0065fc;
     position: absolute;
-    left: 52%;
+    left: 44%;
     bottom: 9%;
 }
 
@@ -654,6 +654,6 @@ footer {
     margin-top: 61px;
 }
 
-.étoile_grise {
+.etoile_grise {
     color: #d9d9d9;
 }
