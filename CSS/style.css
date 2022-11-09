@@ -1,317 +1,3 @@
-@media screen and (max-width: 1394px) {
-    main aside .étoiles_aside {
-        left: 50%;
-    }
-}
-
-@media screen and (max-width: 1145px) {
-    main {
-        flex-direction: column;
-    }
-
-    main #article_1 {
-        width: 100%;
-    }
-
-    main aside {
-        width: 100%;
-        height: 270px;
-        margin-left: 0;
-        margin-top: 5%;
-    }
-
-    main aside #responsive_aside {
-        display: flex;
-        width: 97%;
-    }
-    main aside .étoiles_aside {
-        left: 46%;
-    }
-
-    main aside #responsive_aside {
-        display: flex;
-    }
-
-    main article .titre_vignette {
-        font-size: 91%;
-    }
-    main aside .titre_vignette {
-        font-size: 85%;
-        margin-bottom: 0;
-    }
-    main aside .prix_aside {
-        margin-bottom: 1%;
-        font-size: 70%;
-    }
-    main aside .image_aside {
-        width: 103px;
-        height: auto;
-    }
-    article .tarif_vignette {
-        font-size: 13px;
-    }
-    aside .hebergement_aside {
-        margin-bottom: 8%;
-        height: 139px;
-    }
-    article .images_article2 {
-        height: 230px;
-    }
-}
-@media screen and (max-width: 996px) {
-    main aside .image_aside {
-        height: 100%;
-        width: 36%;
-    }
-
-    main aside .étoiles_aside {
-        left: 40%;
-    }
-
-    main aside .titre_vignette {
-        font-size: 69%;
-        margin-left: 5%;
-    }
-
-    main aside .prix_aside {
-        font-size: 59%;
-        margin-left: 3%;
-        margin-top: 16%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    header nav {
-        width: 32%;
-    }
-    article #Les_filtres {
-        width: 100%;
-    }
-
-    article .Filtre_liens {
-        margin-right: 9px;
-        font-size: 15px;
-    }
-
-    form input {
-        height: 60px;
-    }
-    form #localisation {
-        padding: 3%;
-    }
-    main aside .étoiles_aside {
-        left: 37%;
-    }
-    article .titre_vignette2 {
-        font-size: 70%;
-        margin-bottom: 0;
-    }
-    article .images_article2 {
-        height: 185px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    html body {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    article h1 {
-        font-size: 1.2em;
-        margin-left: 8px;
-        margin-right: 4%;
-    }
-    article h2 {
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-
-    body header {
-        flex-direction: column;
-        height: 135px;
-    }
-
-    section h5 {
-        margin: auto;
-    }
-
-    article #info_ligne {
-        margin-top: 4%;
-    }
-
-    article #info_cercle {
-        padding: 11px;
-    }
-
-    article form #bouton {
-        display: none;
-    }
-
-    article form input {
-        width: 100%;
-        height: 66px;
-    }
-
-    article form #loupe {
-        display: block;
-        border: none;
-        background-color: #0065fc;
-        color: white;
-        border-top-right-radius: 25px;
-        border-bottom-right-radius: 25px;
-        cursor: pointer;
-        padding: 6%;
-        margin-right: 4%;
-    }
-
-    article #Les_filtres {
-        flex-wrap: wrap;
-        display: flex;
-        width: auto;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-    article #Filtre {
-        display: block;
-        margin-right: 54%;
-    }
-
-    nav .navBar {
-        padding-top: 0;
-        padding-bottom: 20px;
-        padding-right: 12%;
-        padding-left: 21%;
-    }
-
-    nav .navBar:hover {
-        border-top: none;
-        border-bottom: 2px #0065fc solid;
-    }
-
-    header nav {
-        width: 88%;
-    }
-
-    header #logo {
-        padding-left: 35%;
-    }
-
-    main {
-        flex-direction: column-reverse;
-    }
-
-    main #article_1 {
-        background-color: white;
-    }
-
-    main aside {
-        height: 590px;
-        margin-bottom: 10%;
-        border-radius: 0;
-    }
-
-    main aside .image_aside {
-        width: 145px;
-    }
-
-    main aside .description_aside {
-        display: block;
-    }
-
-    main aside #responsive_aside {
-        flex-direction: column;
-        width: auto;
-    }
-
-    main article #hebergement_article1 {
-        display: block;
-    }
-    main article .article_1_hebergement {
-        width: 100%;
-    }
-
-    body #article_2 {
-        display: block;
-    }
-
-    body footer {
-        display: block;
-    }
-
-    article .activite_marseille {
-        display: block;
-        width: auto;
-        margin-bottom: 10%;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-    article .images_article2 {
-        height: 129px;
-    }
-
-    article .Filtre_liens {
-        font-size: 70%;
-        width: 45%;
-        margin-bottom: 4%;
-    }
-
-    article a .Filtre_liens {
-        margin-right: 0;
-        margin-bottom: 15px;
-        margin-right: 10px;
-    }
-
-    #Filtre {
-        margin-bottom: 11px;
-    }
-    h3 {
-        font-size: 0.8em;
-        margin: 0;
-    }
-
-    article #localisation {
-        padding: 23px;
-        margin-left: 4%;
-    }
-    article #ligne_marseille {
-        display: block;
-    }
-    article #barre_info {
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-bottom: 0;
-    }
-    article .activite_marseille {
-        height: 166px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    main aside .étoiles_aside {
-        left: 41%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    main aside .étoiles_aside {
-        left: 47%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .titre_vignette2 {
-        margin-left: 3%;
-        margin-top: 1%;
-    }
-    main aside .étoiles_aside {
-        left: 55%;
-    }
-    main aside .titre_vignette {
-        font-size: 87%;
-    }
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 body {
@@ -333,6 +19,7 @@ h1 {
     font-size: 22px;
     line-height: 25.83px;
     margin-bottom: 23px;
+    font-weight: 700;
 }
 
 #plus_populaire {
@@ -356,9 +43,9 @@ h2 {
     font-size: 100%;
     font-weight: 700;
     line-height: 18.78px;
-    margin-top: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: 15px;
-    margin-bottom: 9px;
 }
 
 .titre_vignette2 {
@@ -375,10 +62,9 @@ h3 {
 }
 
 .tarif_vignette {
-    font-size: 14px;
-    margin: 0;
     margin-left: 10px;
-    margin-bottom: 4px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 h4 {
@@ -433,7 +119,6 @@ a i {
 
 main {
     display: flex;
-    justify-content: space-between;
 }
 
 form {
@@ -473,7 +158,7 @@ input {
 }
 
 #localisation {
-    background-color: rgba(127, 127, 127, 0.2);
+    background: rgba(127, 127, 127, 0.2);
     border: 1px rgba(127, 127, 127, 0.2) solid;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -497,15 +182,14 @@ input {
 #Les_filtres {
     display: flex;
     margin-top: 3%;
-    width: 75%;
     flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 #Filtre {
     display: flex;
     font-weight: bold;
     padding-top: 14px;
-    margin-right: 5%;
 }
 .Filtre_liste {
     padding: 14px;
@@ -517,7 +201,6 @@ input {
 .Filtre_liens {
     border-radius: 25px;
     border: 2px rgba(127, 127, 127, 0.2) solid;
-    margin-right: 63px;
 }
 
 .Filtre_liens:hover {
@@ -557,23 +240,20 @@ input {
     justify-content: right;
     background-color: rgba(127, 127, 127, 0.05);
     border-radius: 25px;
-    width: 100%;
+    width: 880px;
 }
 
 .article_1_hebergement {
     background-color: white;
-    width: 30%;
+    width: 246px;
+    height: 199px;
     border-radius: 25px;
     margin-bottom: 6%;
-    height: 200px;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     position: relative;
 }
 
 .image_hebergement {
-    display: flex;
-    flex-direction: column;
-    width: 246px;
     height: 124px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -584,30 +264,25 @@ input {
 #hebergement_article1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 6%;
-    padding-right: 3%;
+    justify-content: space-around;
 }
 
 .étoiles {
     color: #0065fc;
     position: absolute;
     left: 10px;
-    white-space: nowrap;
+
     margin-left: 3px;
 }
 
 aside {
     background-color: rgba(127, 127, 127, 0.05);
     border-radius: 25px;
-    width: 40%;
-    margin-left: 4%;
 }
 #populaires {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3%;
-    margin-top: 1%;
     white-space: nowrap;
 }
 
@@ -617,12 +292,7 @@ aside {
 }
 
 .hebergement_aside {
-    display: flex;
     background-color: white;
-    width: 90%;
-    height: 135px;
-    margin-left: 5%;
-    margin-bottom: 15%;
     border-radius: 25px;
     position: relative;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
@@ -647,14 +317,13 @@ aside {
 .description_aside {
     display: flex;
     flex-direction: column;
-    margin-right: 1%;
 }
 
 .étoiles_aside {
     color: #0065fc;
     position: absolute;
-    left: 44%;
-    bottom: 9%;
+    left: 39%;
+    bottom: 7%;
 }
 
 #article_2 {
@@ -671,13 +340,9 @@ aside {
 }
 
 .activite_marseille {
-    width: 22%;
     background-color: white;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 #ligne_marseille {
@@ -736,5 +401,6 @@ footer {
 }
 
 #responsive_aside {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
