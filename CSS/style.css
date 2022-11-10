@@ -66,16 +66,18 @@
         height: 144px;
     }
     article .activite_marseille {
-        max-width: 182px;
+        max-width: 148px;
         max-height: 267px;
-        width: 114px;
     }
     #ligne_marseille {
-        width: 550px;
     }
     #article_2 {
         max-width: none;
         width: auto;
+    }
+    article .titre_vignette2 {
+        font-size: 12px;
+        margin-top: 0;
     }
 }
 
@@ -435,7 +437,7 @@ aside {
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     border-radius: 15px;
     max-height: 444.51px;
-    max-width: 302px;
+    max-width: 270px;
     flex-grow: 1;
 }
 
