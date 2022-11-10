@@ -81,6 +81,61 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    html body {
+        padding: 0;
+    }
+    header {
+        flex-direction: column;
+    }
+
+    header #logo {
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    main {
+        height: auto;
+    }
+    main #article_1 {
+        max-height: none;
+    }
+    aside #responsive_aside {
+        flex-direction: column;
+    }
+    aside .hebergement_aside {
+        width: 100%;
+        max-width: 334px;
+    }
+    #hebergement_article1 {
+        flex-direction: column;
+    }
+    main article .article_1_hebergement {
+        width: 100%;
+        max-width: none;
+    }
+    #ligne_marseille {
+        flex-direction: column;
+    }
+    article .activite_marseille {
+        max-width: 425px;
+        height: 190px;
+        margin-top: 10%;
+    }
+    article #Les_filtres {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    article #activite_titre {
+        margin-bottom: 20px;
+    }
+}
+
 body {
     margin: auto;
     max-width: 1440px;
