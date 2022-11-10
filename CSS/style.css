@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
+@media screen and (max-width: 992px) {
+    .article_1_hebergement {
+        font-size: 13px;
+    }
+
+    aside .titre_vignette {
+        font-size: 13px;
+    }
+    aside .prix_aside {
+        font-size: 9px;
+    }
+    #article_1 {
+        max-width: 64%;
+        width: 100%;
+    }
+    aside {
+        max-width: 33%;
+        width: 100%;
+    }
+    .étoiles {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+}
+
 body {
     margin: auto;
     max-width: 1440px;
@@ -15,11 +42,12 @@ h1 {
 }
 
 .hébergements {
-    margin-left: 4%;
+    margin-left: 65px;
     font-size: 22px;
     line-height: 25.83px;
     margin-bottom: 23px;
     font-weight: 700;
+    padding: 0;
 }
 
 #plus_populaire {
@@ -239,7 +267,9 @@ input {
 #article_1 {
     background-color: rgba(127, 127, 127, 0.05);
     border-radius: 25px;
-    max-width: 67%;
+    max-width: 880px;
+    width: 66%;
+    max-height: 626px;
 }
 
 .article_1_hebergement {
@@ -253,6 +283,8 @@ input {
     margin-bottom: 6%;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     position: relative;
+    flex-grow: 1;
+    margin-left: 3%;
 }
 
 .image_hebergement {
@@ -267,6 +299,8 @@ input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .étoiles {
@@ -280,7 +314,9 @@ input {
 aside {
     background-color: rgba(127, 127, 127, 0.05);
     border-radius: 25px;
-    max-width: 29%;
+    max-width: 420px;
+    max-height: 625px;
+    width: 30%;
 }
 #populaires {
     display: flex;
@@ -300,8 +336,7 @@ aside {
     position: relative;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     margin-bottom: 33px;
-    margin-right: 33px;
-    margin-left: 33px;
+    flex-grow: 1;
 }
 
 .image_aside {
@@ -321,6 +356,7 @@ aside {
 }
 
 .description_aside {
+    font-size: 88%;
 }
 
 .étoiles_aside {
@@ -332,6 +368,8 @@ aside {
 
 #article_2 {
     margin-top: 10%;
+    max-width: 100%;
+    width: 100%;
 }
 
 .images_article2 {
@@ -346,8 +384,9 @@ aside {
     background-color: white;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     border-radius: 15px;
-    height: 371px;
-    width: 20%;
+    max-height: 444.51px;
+    max-width: 302px;
+    flex-grow: 1;
 }
 
 #ligne_marseille {
@@ -405,6 +444,8 @@ footer {
 }
 
 #responsive_aside {
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
 }
