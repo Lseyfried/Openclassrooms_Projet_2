@@ -20,7 +20,18 @@
         width: 100%;
     }
     .étoiles {
-        font-size: 80%;
+        font-size: 100%;
+    }
+    article #Les_filtres {
+        max-width: 95%;
+    }
+
+    article .activite_marseille {
+        max-width: 182px;
+        height: 267px;
+    }
+    article .titre_vignette2 {
+        font-size: 16px;
     }
 }
 
@@ -37,7 +48,7 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 22px;
     margin-bottom: 8px;
 }
 
@@ -385,7 +396,7 @@ aside {
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     border-radius: 15px;
     max-height: 444.51px;
-    max-width: 302px;
+    max-width: 269px;
     flex-grow: 1;
 }
 
