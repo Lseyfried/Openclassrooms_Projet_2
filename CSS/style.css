@@ -59,7 +59,7 @@
         width: 30%;
     }
     aside .image_aside {
-        height: 144px;
+        height: 139px;
     }
     article .activite_marseille {
         max-width: 148px;
@@ -222,6 +222,13 @@
     article .tarif_vignette {
         padding-left: 0;
         margin-left: 15px;
+    }
+
+    .fa-info {
+        padding: 3px;
+    }
+    section .image_hebergement {
+        width: 98%;
     }
 }
 
@@ -466,17 +473,6 @@ button {
     margin-bottom: 35px;
 }
 
-#info_cercle {
-    color: #0065fc;
-    border: 2px rgba(127, 127, 127, 0.2) solid;
-    padding: 10px;
-    border-top-right-radius: 100%;
-    border-top-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
-    margin-bottom: 23px;
-}
-
 #article_1 {
     background-color: rgba(127, 127, 127, 0.05);
     border-radius: 25px;
@@ -668,4 +664,15 @@ footer {
 
 #loupe {
     display: none;
+}
+
+.fa-info {
+    color: #0065fc;
+    border: 2px rgba(127, 127, 127, 0.2) solid;
+    padding: 10px;
+    border-top-right-radius: 95%;
+    border-top-left-radius: 95%;
+    border-bottom-right-radius: 95%;
+    border-bottom-left-radius: 95%;
+    margin-bottom: 23px;
 }
