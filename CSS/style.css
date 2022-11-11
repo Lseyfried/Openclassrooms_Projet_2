@@ -135,6 +135,7 @@
         margin-top: 10%;
         margin-left: 10px;
         margin-right: 10px;
+        max-width: none;
     }
     article #Les_filtres {
         flex-wrap: wrap;
