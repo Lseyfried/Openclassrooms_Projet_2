@@ -3,7 +3,7 @@
 @media screen and (max-width: 1024px) {
     main {
         flex-direction: column;
-        height: 871px;
+        height: 930px;
     }
 
     header nav {
@@ -167,9 +167,6 @@
         margin-bottom: 60px;
         align-self: center;
     }
-    header ul {
-        justify-content: baseline;
-    }
     article .Filtre_liste {
         width: auto;
     }
@@ -216,6 +213,16 @@
         margin-right: 20px;
         margin-left: 20px;
     }
+    .affichage {
+        display: none;
+    }
+    article .hébergements {
+        margin-left: 20px;
+    }
+    article .tarif_vignette {
+        padding-left: 0;
+        margin-left: 15px;
+    }
 }
 
 body {
@@ -233,6 +240,15 @@ h1 {
 }
 
 .hébergements {
+    margin-left: 65px;
+    font-size: 22px;
+    line-height: 25.83px;
+    margin-bottom: 23px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.affichage {
     margin-left: 65px;
     font-size: 22px;
     line-height: 25.83px;
@@ -380,7 +396,6 @@ input {
 
 #localisation {
     background: rgba(127, 127, 127, 0.2);
-    border: 1px rgba(127, 127, 127, 0.2) solid;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 12px;
@@ -490,7 +505,8 @@ button {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     object-fit: cover;
-    width: 100%;
+    width: 97%;
+    margin: 3px;
 }
 
 #hebergement_article1 {
@@ -544,6 +560,7 @@ aside {
     object-fit: cover;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    margin: 3px;
 }
 
 .prix_aside {
