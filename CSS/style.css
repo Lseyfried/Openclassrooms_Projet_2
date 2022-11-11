@@ -14,20 +14,16 @@
         max-height: 199px;
     }
 
-    aside .titre_vignette {
-    }
-    aside .prix_aside {
-    }
     main #article_1 {
         width: auto;
+        max-width: none;
     }
     main aside {
-        max-width: 883px;
+        max-width: none;
         width: auto;
         max-height: none;
     }
-    .étoiles {
-    }
+
     article #Les_filtres {
         max-width: 95%;
     }
@@ -69,8 +65,6 @@
         max-width: 148px;
         max-height: 267px;
     }
-    #ligne_marseille {
-    }
     #article_2 {
         max-width: none;
         width: auto;
@@ -82,25 +76,36 @@
 }
 
 @media screen and (max-width: 425px) {
+    h1 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     html body {
         padding: 0;
     }
     header {
         flex-direction: column;
     }
-
-    header #logo {
-    }
-
     header nav {
-        width: 100%;
+        width: auto;
     }
 
     main {
         height: auto;
+        flex-direction: column-reverse;
     }
     main #article_1 {
         max-height: none;
+        background-color: white;
+    }
+
+    main aside {
+        border-radius: 0;
     }
     aside #responsive_aside {
         flex-direction: column;
@@ -109,12 +114,14 @@
         width: 100%;
         max-width: 334px;
     }
-    #hebergement_article1 {
+    article #hebergement_article1 {
         flex-direction: column;
+        margin: 0 0;
     }
     main article .article_1_hebergement {
         width: 100%;
         max-width: none;
+        margin-left: 0;
     }
     #ligne_marseille {
         flex-direction: column;
@@ -125,7 +132,12 @@
         margin-top: 10%;
     }
     article #Les_filtres {
-        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        width: auto;
+        max-width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     footer {
@@ -139,16 +151,70 @@
         padding: 0;
         border-bottom: 2px #d9d9d9 solid;
         padding-bottom: 20px;
-        padding-left: 37px;
-        padding-right: 37px;
+        display: flex;
+        justify-content: space-around;
+        flex-grow: 1;
     }
 
     nav .navBar:hover {
         border-top: 0;
         border-bottom: 2px #0065fc solid;
     }
+    nav .navBar:active {
+        color: #0065fc;
+    }
     header #logo {
         margin-bottom: 60px;
+        align-self: center;
+    }
+    header ul {
+        justify-content: baseline;
+    }
+    article .Filtre_liste {
+        width: auto;
+    }
+    article #Filtre {
+        display: block;
+        margin-right: 54%;
+        margin-bottom: 11px;
+    }
+
+    article .Filtre_liens {
+        width: 45%;
+        margin-bottom: 4%;
+    }
+
+    #bouton {
+        display: none;
+    }
+    form #loupe {
+        display: block;
+        color: white;
+        width: 50px;
+    }
+
+    form #localisation {
+        padding: 4%;
+    }
+
+    form {
+        height: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    form input {
+        width: 50%;
+    }
+    form button {
+        width: 52px;
+    }
+    .navBar_liens:hover {
+        color: #0065fc;
+    }
+    #barre_info {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -187,7 +253,7 @@ h1 {
 
 h2 {
     font-weight: 400;
-    font-size: 100%;
+    font-size: 16px;
     margin-bottom: 20px;
     line-height: 18.78px;
 }
@@ -278,6 +344,7 @@ main {
 form {
     display: flex;
     flex-direction: row;
+    height: 44px;
 }
 
 input {
@@ -287,6 +354,9 @@ input {
     border-bottom: 1px rgba(127, 127, 127, 0.2) solid;
     width: 20%;
     font-weight: bold;
+    border: 0;
+    border-top: 1px #d9d9d9 solid;
+    border-bottom: 1px #d9d9d9 solid;
 }
 
 #logo {
@@ -307,16 +377,12 @@ input {
     border-top: 2px #0065fc solid;
 }
 
-#loupe {
-    display: none;
-}
-
 #localisation {
     background: rgba(127, 127, 127, 0.2);
     border: 1px rgba(127, 127, 127, 0.2) solid;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    padding: 1%;
+    padding: 12px;
 }
 
 #site_search {
@@ -325,12 +391,17 @@ input {
 }
 
 #bouton {
-    background-color: #0065fc;
     color: white;
+}
+
+button {
+    width: 131px;
+    padding: 0;
+    cursor: pointer;
     border: 0;
+    background-color: #0065fc;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    cursor: pointer;
 }
 
 #Les_filtres {
@@ -339,6 +410,7 @@ input {
     flex-wrap: nowrap;
     justify-content: space-between;
     max-width: 70%;
+    font-weight: bold;
 }
 
 #Filtre {
@@ -571,4 +643,8 @@ footer {
     margin-right: 40px;
     display: flex;
     flex-direction: column;
+}
+
+#loupe {
+    display: none;
 }
