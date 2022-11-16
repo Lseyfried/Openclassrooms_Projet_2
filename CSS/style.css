@@ -3,7 +3,6 @@
 @media screen and (max-width: 1024px) {
     main {
         flex-direction: column;
-        height: 930px;
     }
 
     header nav {
@@ -17,6 +16,8 @@
     main #article_1 {
         width: auto;
         max-width: none;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
     main aside {
         max-width: none;
@@ -36,12 +37,14 @@
         font-size: 12px;
     }
     aside #responsive_aside {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
     aside .hebergement_aside {
-        flex-grow: 0;
-        width: 240px;
+        flex-grow: 1;
+        margin-right: 20px;
+        width: 350px;
     }
 }
 
@@ -49,14 +52,18 @@
     article #article_1 {
         width: auto;
     }
+    article #ligne_marseille {
+        flex-direction: column;
+        max-width: none;
+    }
     article #Les_filtres {
         font-size: 10px;
+        flex-wrap: wrap;
     }
 
     aside .hebergement_aside {
         height: 144px;
-        max-width: 252px;
-        width: 30%;
+        width: auto;
     }
     aside .image_aside {
         height: 139px;
@@ -72,6 +79,17 @@
     article .titre_vignette2 {
         font-size: 12px;
         margin-top: 0;
+    }
+    aside #responsive_aside {
+        flex-direction: column;
+        width: auto;
+    }
+    article .activite_marseille {
+        max-width: none;
+        max-height: none;
+    }
+    footer {
+        flex-direction: column;
     }
 }
 
@@ -301,6 +319,7 @@ h2 {
     font-weight: 700;
     line-height: 18.78px;
     margin-left: 4%;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -368,7 +387,6 @@ a i {
 
 main {
     display: flex;
-    justify-content: space-between;
 }
 
 form {
@@ -378,6 +396,7 @@ form {
 }
 
 input {
+    padding-left: 15px;
     border-top: 1px rgba(127, 127, 127, 0.2) solid;
     border-left: 0;
     border-right: 0;
@@ -392,7 +411,7 @@ input {
 #logo {
     width: 61.09px;
     height: 19px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #logo_image {
@@ -400,7 +419,9 @@ input {
 }
 
 .navBar {
-    padding-top: 20px;
+    padding-top: 30px;
+    border-top: 2px white solid;
+    padding: 30px 30px;
 }
 
 .navBar:hover {
@@ -409,8 +430,8 @@ input {
 
 #localisation {
     background: rgba(127, 127, 127, 0.2);
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     padding: 12px;
 }
 
@@ -429,8 +450,8 @@ button {
     cursor: pointer;
     border: 0;
     background-color: #0065fc;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #Les_filtres {
@@ -460,7 +481,7 @@ button {
 }
 
 .Filtre_liens:hover {
-    background-color: rgba(127, 127, 127, 0.2);
+    background-color: #deebff;
 }
 
 #responsive_filtre {
@@ -482,9 +503,7 @@ button {
 #article_1 {
     background-color: rgba(127, 127, 127, 0.05);
     border-radius: 25px;
-    max-width: 880px;
-    width: 66%;
-    max-height: 626px;
+    margin-right: 20px;
 }
 
 .article_1_hebergement {
@@ -492,7 +511,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     background-color: white;
-    width: 28%;
+    width: 210px;
     height: 199px;
     border-radius: 25px;
     margin-bottom: 6%;
@@ -531,9 +550,6 @@ button {
 aside {
     background-color: rgba(127, 127, 127, 0.05);
     border-radius: 25px;
-    max-width: 420px;
-    max-height: 625px;
-    width: 30%;
 }
 #populaires {
     display: flex;
@@ -602,8 +618,8 @@ aside {
     background-color: white;
     box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);
     border-radius: 15px;
-    max-height: 344px;
-    max-width: 286px;
+    height: 444px;
+    max-width: 302px;
     flex-grow: 1;
 }
 
