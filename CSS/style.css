@@ -220,93 +220,6 @@
     }
 }
 
-/* @media screen and (max-width: 425px) {
-
-
-
-
-
-    header {
-        flex-direction: column;
-    }
-    header nav {
-        width: auto;
-    }
-
-    main {
-        height: auto;
-        flex-direction: column-reverse;
-    }
-
-
-
-    aside .hebergement_aside {
-        width: 100%;
-        max-width: 406px;
-    }
-    article #hebergement_article1 {
-        flex-direction: column;
-        margin: 0 0;
-    }
-    main article .article_1_hebergement {
-        width: 93%;
-        max-width: none;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    #ligne_marseille {
-        flex-direction: column;
-    }
-
-
-
-    footer {
-        flex-direction: column;
-    }
-    article #activite_titre {
-        margin-bottom: 20px;
-        width: 131px;
-    }
-
-
-
-
-
- 
-
-
- 
-   
-
-
-    form #localisation {
-        padding: 4%;
-    }
-
- 
-
-    form input {
-        width: 50%;
-    }
-    form button {
-        width: 52px;
-    }
-
- 
-    article .hébergements {
-        margin-left: 20px;
-    }
-    article .tarif_vignette {
-        padding-left: 0;
-        margin-left: 15px;
-    }
-
-    .fa-info {
-        padding: 3px;
-    }
- 
-} */
-
 body {
     margin: auto;
     max-width: 1440px;
@@ -745,4 +658,7 @@ footer {
     border-bottom-right-radius: 95%;
     border-bottom-left-radius: 95%;
     margin-bottom: 23px;
+}
+.marge {
+    margin-left: 10px;
 }
