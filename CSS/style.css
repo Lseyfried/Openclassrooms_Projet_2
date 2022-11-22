@@ -49,6 +49,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    article .activite_marseille {
+        max-width: none;
+        height: 190px;
+        margin-top: 10px;
+    }
+
     article #article_1 {
         width: auto;
     }
@@ -59,18 +69,24 @@
     article #Les_filtres {
         font-size: 10px;
         flex-wrap: wrap;
+        max-width: 100%;
+        width: auto;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
-    aside .hebergement_aside {
-        height: 144px;
-        width: auto;
+    article #Filtre {
+        display: block;
+        margin-right: 54%;
+        margin-bottom: 11px;
     }
+
+    article .Filtre_liens {
+        width: 135px;
+    }
+
     aside .image_aside {
         height: 139px;
-    }
-    article .activite_marseille {
-        max-width: 148px;
-        max-height: 267px;
     }
     #article_2 {
         max-width: none;
@@ -84,10 +100,7 @@
         flex-direction: column;
         width: auto;
     }
-    article .activite_marseille {
-        max-width: none;
-        max-height: none;
-    }
+
     footer {
         flex-direction: column;
     }
@@ -421,7 +434,7 @@ input {
 .navBar {
     padding-top: 30px;
     border-top: 2px white solid;
-    padding: 30px 30px;
+    padding: 30px 34px;
 }
 
 .navBar:hover {
