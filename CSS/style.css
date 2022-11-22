@@ -28,7 +28,7 @@
 
     article .activite_marseille {
         max-width: 218px;
-        width: 38%%;
+        width: 38%;
         max-height: 371px;
         height: 445px;
     }
@@ -83,7 +83,7 @@
 
     article #Filtre {
         display: block;
-        margin-right: 54%;
+        margin-right: 65%;
         margin-bottom: 11px;
     }
 
@@ -184,6 +184,40 @@
     .affichage {
         display: none;
     }
+    article #Les_filtres {
+        flex-wrap: wrap;
+        display: flex;
+        width: auto;
+        max-width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    article .Filtre_liste {
+        width: auto;
+    }
+    article #Filtre {
+        display: block;
+        margin-right: 54%;
+        margin-bottom: 11px;
+    }
+    article .Filtre_liens {
+        width: 47%;
+        margin-bottom: 4%;
+    }
+    .navBar_liens:hover {
+        color: #0065fc;
+    }
+    article .activite_marseille {
+        height: 190px;
+        margin-top: 10%;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: none;
+        width: auto;
+    }
+    section .image_hebergement {
+        width: 98%;
+    }
 }
 
 /* @media screen and (max-width: 425px) {
@@ -223,21 +257,8 @@
     #ligne_marseille {
         flex-direction: column;
     }
-    article .activite_marseille {
-        height: 190px;
-        margin-top: 10%;
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: none;
-    }
-    article #Les_filtres {
-        flex-wrap: wrap;
-        display: flex;
-        width: auto;
-        max-width: 100%;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
+
+
 
     footer {
         flex-direction: column;
@@ -251,20 +272,10 @@
 
 
 
-    article .Filtre_liste {
-        width: auto;
-    }
-    article #Filtre {
-        display: block;
-        margin-right: 54%;
-        margin-bottom: 11px;
-    }
+ 
 
-    article .Filtre_liens {
-        width: 47%;
-        margin-bottom: 4%;
-    }
 
+ 
    
 
 
@@ -280,9 +291,6 @@
     form button {
         width: 52px;
     }
-    .navBar_liens:hover {
-        color: #0065fc;
-    }
 
  
     article .hébergements {
@@ -296,9 +304,7 @@
     .fa-info {
         padding: 3px;
     }
-    section .image_hebergement {
-        width: 98%;
-    }
+ 
 } */
 
 body {
